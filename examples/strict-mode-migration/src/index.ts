@@ -1,4 +1,7 @@
-const greet = (name: string): void => {
+const greet = (
+  // @ts-migrating
+  name,
+): void => {
   console.log(`Hello, ${name}`);
 };
 
